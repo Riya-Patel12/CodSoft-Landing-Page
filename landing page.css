@@ -1,0 +1,378 @@
+/* 1st page */
+
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+
+body {
+  background-color: #f0f0f0;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+nav {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin-right: 5px;
+  }
+  
+  nav a {
+    color: #fff; 
+    text-decoration: none;
+    transition: color 0.2s ease;
+  }
+  
+  nav a:hover {
+    color: #ccc;
+    border-bottom: 2px solid #fff; 
+    transition: 0.3s;
+  }
+  
+  nav a.active {
+    color: #fff; 
+    border-bottom: 4px solid #fff; 
+  }
+  .container {
+    background-image: url('jwe.jpg'); 
+    padding: 20px;
+    text-align: center;
+    height: 100vh;
+    background-size: cover;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #C4BAA6;
+  }
+  
+  .tagline {
+    font-size: 150px;
+    color:  #C4BAA6; 
+    margin-bottom: 20px;
+    font-family: 'The seasons';
+    font-style: italic;
+    margin: 100px ;
+  }
+  
+  .learn-more {
+    background-color: #C4BAA6; 
+    color:  #0a0805; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .learn-more:hover {
+    background-color: #444; 
+    color: white;
+  }
+  
+/* 2nd page */
+  
+  .container1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  .text-container {
+    background-color: #5C4033;
+    color: #C4BAA6;
+    padding: 30px;
+    width: 50%;
+    height: 70%;
+  }
+  
+  .image-container {
+    width: 55%;
+    height: 50%;
+  }
+  
+  .title {
+    font-size: 6em;
+    color:#C4BAA6;
+    margin-bottom: 20px;
+  }
+  
+  .text1 {
+    font-size: 2em;
+    line-height: 1.6;
+  }
+  
+  .image {
+    width: 100%;
+    height:18cm;
+  }
+
+/* 3rd page */
+  
+  .title1{
+    color: #333;
+    margin-top: 70px;
+    text-align: center;
+    font-style: italic;
+    font-family:'The seasons';
+    font-size: 4em;
+  }
+  
+  .container3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    text-align: center;
+    margin: 20px;
+  }
+  
+  .card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    margin: 20px;
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .card img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .card h2 {
+    color: #333;
+    margin-top: 20px;
+  }
+  
+  .card p {
+    color: #555;
+   margin-top: 0%;
+   margin-top: 30px;
+  }
+
+  .card:hover{
+    transform: scale(1.1);
+    z-index: 1;
+  }
+
+  .many-more {
+    background-color: #C4BAA6; 
+    color:  #0a0805; 
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .many-more:hover {
+    background-color: #444; 
+    color: white;
+  }
+
+  
+  /*5th page*/
+  
+  .container5 {
+    display: flex;
+    justify-content: space-between;
+    margin: 30px;
+  }
+  
+  .text-container1 {
+    background-color:#5C4033;
+    color:#C4BAA6;
+    padding: 30px;
+    width: 40%;
+    height: 50%;
+  }
+  
+  .image-container1 {
+    width: 58%;
+  }
+  
+  .title {
+    font-size: 6em;
+    color:white;
+    margin-bottom: 20px;
+  }
+  
+  .text1 {
+    font-size: 2em;
+    line-height: 1.6;
+  }
+  
+  .image1 {
+    max-width: 100%;
+    height: 52vh;
+    width: 150%;
+  }
+
+  .right {
+    width: 90%;
+    height: 90%;
+    padding: 20px;
+    background-color:#5C4033;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+    border:5px solid #C4BAA6;
+  }
+  
+  h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+  }
+  
+  .info {
+    margin-bottom: 20px;
+  }
+  
+  .social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social a {
+    margin: 0 10px;
+    font-size: 2em;
+    color: #ddd;
+  }
+
+@media  (max-width:450px){
+    .container{
+        width: 120%;
+    }
+  } 
+
+@media (max-width:950px){
+
+    .container{
+      height: 10cm;
+    }
+
+    .tagline{
+      font-size: 2em;
+    }
+
+    .text-container{
+      font-size: 10px;
+      width: 50%;
+      height: 30%;
+    }
+
+    .image{
+      height: 15cm;
+    }
+
+    .image-container{
+    height:2cm;
+    }
+}
+
+  @media (max-width: 768px) {
+    .card {
+      align-items: center;
+       width:fit-content;
+    }
+
+    .title1,.many-more{
+    margin-left: 30%;
+    }
+
+    .container3{
+      flex-direction: column;
+      width: 120%;
+    }
+
+    .nav ul {
+        justify-content: center;
+    }
+
+    .container1, .container5 {
+        flex-direction: column;
+    }
+
+    .text-container, .text-container1 {
+        width: 120%;
+      }
+
+    .image-container1,.image-container {
+      width: 140%;
+    }
+
+    .image-container1,.image-container {
+      margin-top: 10px;
+      height: 10%;
+    }
+
+    .tagline {
+        font-size: 100px;
+    }
+
+    .title, .title1 {
+        font-size: 3em;
+    }
+
+    .text1 {
+        font-size: 1.5em;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .tagline {
+        font-size: 70px;
+    }
+
+    .title, .title1 {
+        font-size: 2em;
+    }
+
+    .text1 {
+        font-size: 1em;
+    }
+
+    button, .learn-more, .many-more {
+        width: 50%;
+        padding: 15px;
+        font-size: 1.2em;
+    }
+  }
+ 
+ @media (max-width:400px){
+    .container{
+        width:fit-content;
+        width: 119%;
+    }
+
+    .tagline{
+      font-size:50px;
+      text-align: center;
+    }
+  }
+
+  @media (max-width:500px){
+    .tagline{
+      font-size: 25px;
+    }
+  }
